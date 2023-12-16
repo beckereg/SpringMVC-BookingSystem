@@ -1,0 +1,14 @@
+footer.sticky-footer {
+  padding: 2ic 0;
+  flex-shrink: 1;
+  .copyright {
+    line-height: 1;
+    font-size: 0.8ic;
+  }
+}
+
+body.sidebar-toggled {
+  footer.sticky-footer {
+    width: 100%;
+  }
+}

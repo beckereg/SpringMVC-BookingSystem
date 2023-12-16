@@ -1,0 +1,71 @@
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+<!-- Sidebar - Brand -->
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard">
+</a><div class="sidebar-brand-text mx-3"><a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard">
+</a><div class="my-image-holder"><a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard">
+</a><a class="navbar-brand fw-bold" href="/"><img src="/assets/img/logo-black-GURARIDE.png" alt="Gura Ride Logo" width="120" height="60"></a>
+</div>
+</div>
+
+
+<!-- Divider -->
+<hr class="sidebar-divider my-0">
+
+<!-- Nav Item - Dashboard -->
+<li class="nav-item active">
+<a class="nav-link" href="/user-dashboard">
+<i class="fas fa-fw fa-tachometer-alt"></i>
+<span>Dashboard</span></a>
+</li>
+
+<!-- Divider -->
+<hr class="sidebar-divider">
+<!-- Heading -->
+<div class="sidebar-heading">
+                            Operations
+</div>
+
+<!-- Nav Item - User Information -->
+<li class="nav-item">
+<a class="nav-link" href="/user-available">
+<i class="fas fa-fw fa-chart-area"></i>
+<span>Available Bikes</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/user-reserved">
+<i class="fas fa-fw fa-chart-area"></i>
+<span>Reserved Bikes</span></a>
+</li>
+
+<!-- Nav Item - Tables -->
+<li class="nav-item">
+<a class="nav-link" href="/user-rented">
+<i class="fas fa-fw fa-table"></i>
+<span>Rented Bikes</span></a>
+</li>
+<!-- Divider -->
+<hr class="sidebar-divider d-none d-md-block">
+<li class="nav-item">
+<a class="nav-link" href="/user-reserve-rental">
+<i class="fas fa-fw fa-chart-area"></i>
+<span>Reserve a Bike</span></a>
+</li>
+<!-- Divider -->
+<hr class="sidebar-divider d-none d-md-block">
+<!-- Nav Item - Charts -->
+<li class="nav-item">
+<a class="nav-link" href="/user-profile">
+<i class="fas fa-fw fa-chart-area"></i>
+<span>My Profile</span></a>
+</li>
+
+<!-- Divider -->
+<hr class="sidebar-divider d-none d-md-block">
+
+<!-- Sidebar Toggler (Sidebar) -->
+<div class="text-center d-none d-md-inline">
+<button class="rounded-circle border-0" id="sidebarToggle"></button>
+</div>
+
+</ul>

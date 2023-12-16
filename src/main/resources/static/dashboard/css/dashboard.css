@@ -1,0 +1,15 @@
+.my-image-holder {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+}
+
+.row-card-a a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.row-card-a a:hover {
+    color: #00ff00; /* Change color to your desired color */
+    text-decoration: underline; /* Use text-decoration instead of text-underline */
+}
