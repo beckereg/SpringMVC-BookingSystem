@@ -16,7 +16,7 @@ private SendEmail sendEmail;
     }
     @EventListener(ApplicationReadyEvent.class)
     public void sendmail(){
-        sendEmail.setMailSender("bker62060@gmail.com", "YOUR INFORMATIONS", "This is a body");
+        sendEmail.sendMail("bker62060@gmail.com", "YOUR INFORMATIONS", "This is a body");
     }
 
 }

@@ -1,6 +1,7 @@
 package com.guraride.guraridebooking_system.implementation;
 
 import com.guraride.guraridebooking_system.dto.BikeDto;
+import com.guraride.guraridebooking_system.dto.RentalDto;
 import com.guraride.guraridebooking_system.models.Bike;
 import com.guraride.guraridebooking_system.repository.BikeRepository;
 import com.guraride.guraridebooking_system.service.BikeService;
@@ -67,10 +68,25 @@ public class BikeImp implements BikeService {
     }
 
     @Override
-    public List<Bike> findBikeByStatusAvailable(String email, String status) {
-        List<Bike> bikes = bikeRepository.findAllByStatus(email, status);
-        return bikes.stream().map(bike -> mapToRentalDto(bike)).collect(Collectors.toList());
+    public List<Bike> findBikeByStatusAvailable() {
+        return null;
     }
+
+    @Override
+    public List<RentalDto> findAvailableBikes(String email, String status) {
+        return null;
+    }
+
+    @Override
+    public List<Bike> findBikeByStatusAvailable(String email, String status) {
+        return null;
+    }
+
+//    @Override
+//    public List<Bike> findBikeByStatusAvailable(String email, String status) {
+//        List<Bike> bikes = bikeRepository.findAllByStatus(email, status);
+//        return bikes.stream().map(bike -> mapToRentalDto(bike)).collect(Collectors.toList());
+//    }
 
 }
 
